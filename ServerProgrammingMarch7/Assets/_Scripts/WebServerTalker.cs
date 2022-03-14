@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class WebServerTalker : MonoBehaviour
 {
-    const string URL = "http://localhost:46000/user/";
+    const string URL = "https://ggmhan.herokuapp.com/user/";
 
     public InputField _idInput;
     public Button _btnGenerate;
