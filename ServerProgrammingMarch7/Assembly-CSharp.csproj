@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/_Scripts/WebServerTalker.cs" />
+     <Compile Include="Assets/_Scripts/WebSocketTalker.cs" />
+     <None Include="Assets/Packages/WebSocketSharp-netstandard.1.0.1/lib/netstandard2.0/websocket-sharp.xml" />
     <Reference Include="UnityEngine">
         <HintPath>/data/UnityEditor/2020.3.27f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -258,6 +260,9 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/han/Documents/ServerProgramming/ServerProgrammingMarch7/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+        <HintPath>/home/han/Documents/ServerProgramming/ServerProgrammingMarch7/Assets/Packages/WebSocketSharp-netstandard.1.0.1/lib/netstandard2.0/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/data/UnityEditor/2020.3.27f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
