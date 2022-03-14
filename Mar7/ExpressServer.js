@@ -2,6 +2,8 @@ const express = require("express");
 
 var app = express();
 
+const port = process.env.PORT || 48000;
+
 app.get("/", (req, res) => {
     res.send("Install Gentoo");
 });
@@ -23,6 +25,6 @@ app.get("/user/:id", (req, res) => {  // : 뒤가 파라미터가 됨, */user/Ha
     res.json(dummyData);
 });
 
-app.listen(46000, () => {
-    console.log("Server is running on port 46000");
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
